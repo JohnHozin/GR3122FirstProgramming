@@ -10,26 +10,29 @@ if (inputLineA != null && inputLineB != null && inputLineC != null)
     int inputA = int.Parse(inputLineA);
     int inputB = int.Parse(inputLineB);
     int inputC = int.Parse(inputLineC);
-    if (inputA > inputB)
-    {
-        if (inputA > inputC)
-        {
-            Console.WriteLine("max = " + inputA);
-        }
-        else
-        {
-            Console.WriteLine("max = " + inputC);
-        }
-    }
-    else
-    {
-        if (inputB > inputC)
-        {
-            Console.WriteLine("max = " + inputB);
-        }
-        else
-        {
-            Console.WriteLine("max = " + inputC);
-        }
-    }
+    // if (inputA > inputB)
+    // {
+    //     if (inputA > inputC)
+    //     {
+    //         Console.WriteLine("max = " + inputA);
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("max = " + inputC);
+    //     }
+    // }
+    // else
+    // {
+    //     if (inputB > inputC)
+    //     {
+    //         Console.WriteLine("max = " + inputB);
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("max = " + inputC);
+    //     }
+    // }
+
+    //Console.WriteLine((inputA > inputC ? (inputA > inputC ? "max = " + inputA : "max = " + inputC) : (inputB > inputC ? "max = " + inputB : "max = " + inputC)));
+    Console.WriteLine(Math.Max(inputA, Math.Max(inputB, inputC)));
 }

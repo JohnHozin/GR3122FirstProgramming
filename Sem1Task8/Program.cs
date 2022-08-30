@@ -27,18 +27,29 @@ if (inputLine != null)
     //     startIndex += 2;
     // }
 
+    // int startIndex = 2;
+    // while (startIndex <= inputNumber)
+    // {
+    //     if (startIndex >= inputNumber - 1)
+    //     {
+    //         Console.Write(startIndex);
+    //         startIndex += 2;
+    //     }
+    //     else
+    //     {
+    //         Console.Write(startIndex + ", ");
+    //         startIndex += 2;
+    //     }
+    // }
+
     int startIndex = 2;
-    while (startIndex <= inputNumber)
+    while (startIndex <= inputNumber - 2)
     {
-        if (startIndex >= inputNumber - 1)
-        {
-            Console.Write(startIndex);
-            startIndex += 2;
-        }
-        else
-        {
-            Console.Write(startIndex + ", ");
-            startIndex += 2;
-        }
+        Console.Write(startIndex + ", ");
+        startIndex += 2;
+    }
+    if (startIndex % 2 == 0)
+    {
+        Console.Write(startIndex);
     }
 }
