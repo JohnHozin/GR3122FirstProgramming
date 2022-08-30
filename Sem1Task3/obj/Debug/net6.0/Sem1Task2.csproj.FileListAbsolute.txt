@@ -21,3 +21,10 @@ C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\Fi
 C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\obj\Debug\net6.0\Sem1Task2.dll
 C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\obj\Debug\net6.0\refint\Sem1Task2.dll
 C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\obj\Debug\net6.0\Sem1Task2.pdb
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\bin\Debug\net6.0\Sem1Task2.exe
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\bin\Debug\net6.0\Sem1Task2.deps.json
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\bin\Debug\net6.0\Sem1Task2.runtimeconfig.json
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\bin\Debug\net6.0\Sem1Task2.dll
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\bin\Debug\net6.0\Sem1Task2.pdb
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\obj\Debug\net6.0\Sem1Task2.genruntimeconfig.cache
+C:\Users\simpl\OneDrive\Рабочий стол\GeekBrains\FirstProjectDotNet\FirstProgramming\GR3122FirstProgramming\Sem1Task3\obj\Debug\net6.0\ref\Sem1Task2.dll
