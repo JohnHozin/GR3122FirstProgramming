@@ -38,6 +38,8 @@ if (inputLine != null)
         case6: outDayOfWeek = "Суббота"; break;
         case7: outDayOfWeek = "Воскресенье"; break;
         default: outDayOfWeek = "Такого дня нет"; break;
+
+        
     }
 
 
