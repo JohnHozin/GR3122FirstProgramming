@@ -42,14 +42,16 @@ if (inputLine != null)
     //     }
     // }
 
-    int startIndex = 2;
-    while (startIndex <= inputNumber - 2)
-    {
-        Console.Write(startIndex + ", ");
-        startIndex += 2;
-    }
-    if (startIndex % 2 == 0)
-    {
-        Console.Write(startIndex);
-    }
+//     int startIndex = 2;
+//     while (startIndex <= inputNumber - 2)
+//     {
+//         Console.Write(startIndex + ", ");
+//         startIndex += 2;
+//     }
+//     if (startIndex % 2 == 0)
+//     {
+//         Console.Write(startIndex);
+//     }
+// }    // new Random().Next(10,100);
 }
+Console.Write(new Random().Next(10,100));
