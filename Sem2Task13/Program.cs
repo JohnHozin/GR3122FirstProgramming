@@ -6,35 +6,56 @@
 
 Console.Write("Введите число: ");
 string? inputLineA = Console.ReadLine();
-if (inputLineA != null)
+Console.Write("Введите номер разряда: ");
+string? inputLineRazrad = Console.ReadLine();
+if (inputLineA != null && inputLineRazrad != null)
 {
-    void Variant1()
+    // void Variant1()
+    // {
+    //     if (inputLineA.Length > 2)
+    //     {
+    //         Console.WriteLine("Variant1: " + inputLineA[2]);
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Variant1: Третьей цифры нет!");
+    //     }
+    // }
+
+    // void Variant2()
+    // {
+    //     if (inputLineA.Length > 2)
+    //     {
+    //         char[] arr = inputLineA.ToCharArray();
+    //         Console.WriteLine("Variant2: " + arr[2]);
+    //     }
+    //     else
+    //     {
+    //         Console.WriteLine("Variant2: Третьей цифры нет!");
+    //     }
+    // }
+
+    long inputNumber = long.Parse(inputLineA);
+    int razrad = int.Parse(inputLineRazrad);
+    
+    int DigitMiner(long number, int searchDigit)
     {
-        if (inputLineA.Length > 2)  
+        int result = (int)Math.Log10(number) + 1;
+        if (result >= searchDigit)
         {
-            Console.WriteLine("Variant1: " + inputLineA[2]);
+            number = number / (long)Math.Pow(10, (result - searchDigit));
+            result = (int)number % 10;
         }
         else
         {
-            Console.WriteLine("Variant1: Третьей цифры нет!");
+            result = -1;
         }
+        return result;
     }
 
-    void Variant2()
-    {
-        if (inputLineA.Length > 2)  
-        {
-            char[] arr = inputLineA.ToCharArray();
-            Console.WriteLine("Variant2: " + arr[2]);
-        }
-        else
-        {
-            Console.WriteLine("Variant2: Третьей цифры нет!");
-        }
-    }
-
-    Variant1();
-    Variant2();
+    // Variant1();
+    // Variant2();
+    Console.WriteLine(DigitMiner(inputNumber, razrad));
 }
 else
 {

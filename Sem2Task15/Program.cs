@@ -8,7 +8,7 @@ Console.Write("Введите число от 1 до 7: ");
 string? inputLineA = Console.ReadLine();
 if (inputLineA != null)
 {
-    void Variant1()
+    void Variant1()  // Метод сравнивающий числа
     {
         int inputNumberA = int.Parse(inputLineA);
         if (inputNumberA > 0 && inputNumberA < 6)
@@ -29,28 +29,22 @@ if (inputLineA != null)
         }
     }
 
-    void Variant2()
+    void Variant2() // Метод использующий коллекцию 
     {
         int inputNumberA = int.Parse(inputLineA);
-        if (inputNumberA > 0 && inputNumberA < 8)
-        {
-            Dictionary<int, string> dayOfWeek = new Dictionary<int, string>()  // Создаём коллекцию и заполняем её
-            {
-                {1,"Будний день"},
-                {2,"Будний день"},
-                {3,"Будний день"},
-                {4,"Будний день"},
-                {5,"Будний день"},
-                {6,"Выходной день"},
-                {7,"Выходной день"}
-            };
 
-            Console.WriteLine("Variant2: " + dayOfWeek[inputNumberA]);
-        }
-        else
+        Dictionary<int, string> dayOfWeek = new Dictionary<int, string>()  // Создаём коллекцию и заполняем её
         {
-            Console.WriteLine("Variant2: Введите правильное число!");
-        }
+        {1,"Будний день"},
+        {2,"Будний день"},
+        {3,"Будний день"},
+        {4,"Будний день"},
+        {5,"Будний день"},
+        {6,"Выходной день"},
+        {7,"Выходной день"}
+        };
+        // Проверяем наличие ключа в коллекции и печатаем результат
+        Console.WriteLine(dayOfWeek.ContainsKey(inputNumberA) ? ("Variant2: " + dayOfWeek[inputNumberA]) : ("Variant2: Введите правильное число!"));
     }
 
     Variant1();
