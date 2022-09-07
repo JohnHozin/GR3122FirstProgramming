@@ -26,8 +26,9 @@ void PrintResult(string line)
 
 // Соберем данные
 int x1 = ReadData("Введите x1: ");
-int x2 = ReadData("Введите x2: ");
 int y1 = ReadData("Введите y1: ");
+
+int x2 = ReadData("Введите x2: ");
 int y2 = ReadData("Введите y2: ");
 
 // Выводим результат
