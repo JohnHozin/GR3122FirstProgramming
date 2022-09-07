@@ -1,0 +1,15 @@
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\bin\Debug\net6.0\Sem3Task20.exe
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\bin\Debug\net6.0\Sem3Task20.deps.json
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\bin\Debug\net6.0\Sem3Task20.runtimeconfig.json
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\bin\Debug\net6.0\Sem3Task20.dll
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\bin\Debug\net6.0\Sem3Task20.pdb
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.csproj.AssemblyReference.cache
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.AssemblyInfoInputs.cache
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.AssemblyInfo.cs
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.csproj.CoreCompileInputs.cache
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.dll
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\refint\Sem3Task20.dll
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.pdb
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\Sem3Task20.genruntimeconfig.cache
+C:\Users\LILIA\Desktop\VisualCode\FirstProgramming\GR3122FirstProgramming\Sem3Task20\obj\Debug\net6.0\ref\Sem3Task20.dll
