@@ -104,10 +104,18 @@ bool TestPalidromLength(int number)
 }
 
 int number = ReadData("Введите палиндром: ");
+
+DateTime d1 = DateTime.Now;
 PrintResult("1) " + TestPalindrom(number).ToString());
+Console.WriteLine(DateTime.Now - d1);
 
 Dictionary<int, int> palidrom = MakeDIctionary();
 //PrintDictionary(palidrom);
-PrintResult(TestContainsDictionary(number, palidrom) ? "2) Да" : "2) Нет");
 
+DateTime d2 = DateTime.Now;
+PrintResult(TestContainsDictionary(number, palidrom) ? "2) Да" : "2) Нет");
+Console.WriteLine(DateTime.Now - d2);
+
+DateTime d3 = DateTime.Now;
 PrintResult(TestPalidromLength(number) ? "3) Да" : "3) Нет");
+Console.WriteLine(DateTime.Now - d3);
