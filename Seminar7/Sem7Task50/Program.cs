@@ -97,12 +97,12 @@ void Print2DArrayColor(int x, int y, double[,] matr)
     }
 }
 
-int m = ReadData("Введите количество столбцов M: ");
-int n = ReadData("Введите количество строк N: ");
+int m = ReadData("Введите количество строк M: ");
+int n = ReadData("Введите количество столбцов N: ");
 double[,] matrix = new double[m, n];
 
-int x = ReadData("Введите искомый столбец(от 0 до M): ");
-int y = ReadData("Введите искомую строку(от 0 до N): ");
+int x = ReadData("Введите искомый строку(от 0 до M): ");
+int y = ReadData("Введите искомую столбец(от 0 до N): ");
 
 Fill2DArray(matrix);
 Print2DArray(matrix);

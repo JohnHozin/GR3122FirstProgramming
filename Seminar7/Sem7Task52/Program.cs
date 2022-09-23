@@ -165,8 +165,8 @@ void PrintArray(double[] arr)
 
 
 
-int m = ReadData("Введите количество столбцов M: ");
-int n = ReadData("Введите количество строк N: ");
+int m = ReadData("Введите количество строк M: ");
+int n = ReadData("Введите количество столбцов N: ");
 int[,] matrix = new int[m, n];
 
 Fill2DArray(matrix, 1, 9);
