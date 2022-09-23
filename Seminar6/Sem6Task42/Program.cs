@@ -36,19 +36,19 @@ List<int> Convert(int number)
 }
 
 //переворачивает число и возвращает прямую запись двоичного числа.
-int Reverse(List<int> reverse)
-{
-    int[] arr = new int[reverse.Count];
-    for (int i = reverse.Count - 1; i >= 0; i--)
-    {
-        arr[reverse.Count - 1 - i] = reverse[i];
-    }
-    return Convert.ToInt32(string.Join<int>("", arr));
-}
+// int Reverse(List<int> reverse)
+// {
+//     int[] arr = new int[reverse.Count];
+//     for (int i = reverse.Count - 1; i >= 0; i--)
+//     {
+//         arr[reverse.Count - 1 - i] = reverse[i];
+//     }
+//     return Convert.ToInt32(string.Join<int>("", arr));
+// }
 
-int number = ReadData("Введите число: ");
-PrintResult(Reverse(Convert(number)));
-PrintResult("Входное число в бинарном формате: ", );
+// int number = ReadData("Введите число: ");
+// PrintResult("",Reverse(Convert(number)).ToString());
+// PrintResult("Входное число в бинарном формате: ", "");
 
 
 // Константин

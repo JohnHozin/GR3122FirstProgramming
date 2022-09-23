@@ -35,36 +35,3 @@ for (i = 0; i < n; i++)
     Console.WriteLine();
 }
 Console.ReadLine();
-
-
-
-
-// // 54
-// List<int> pow = new List<int>();
-// pow.add(Array[i, j]);
-// pow.Sort();
-
-// //56
-// int FindMinRow(int[,] arr)
-// {
-//     int min = int.MaxValue;
-//     int sum = 0;
-//     for (int i = 0; i < matr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matr.GetLength(1); j++)
-//         {
-//             sum += arr[i, j];
-//         }
-//         if (min > sum)
-//         {
-//             min = sum;
-//             outIndexRow = i;
-//         }
-//     }
-//     return outIndexRow;
-// }
-
-// //60
-// int[,,] a = new int[,,];
-
-// a[i,j,k] = next
