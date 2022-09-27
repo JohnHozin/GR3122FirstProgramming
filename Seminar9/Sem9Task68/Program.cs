@@ -12,7 +12,7 @@ int ReadData(string line)
 }
 
 // Печать результата
-void PrintResult(int prefix)
+void PrintResult(string prefix)
 {
     Console.WriteLine(prefix);
 }
@@ -29,6 +29,6 @@ int funcAkkerman(int m, int n)
 int m = ReadData("Введите число m: ");
 int n = ReadData("Введите число n: ");
 
-PrintResult(funcAkkerman(m, n));
+PrintResult(funcAkkerman(m, n) == -1 ? "Введите положительные числа!" : funcAkkerman(m, n).ToString());
 
 
