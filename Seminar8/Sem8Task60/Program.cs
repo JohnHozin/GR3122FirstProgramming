@@ -23,57 +23,58 @@ void Print3DArray(int[,,] matr)
                 Console.Write($"{matr[i, j, k]}({i},{j},{k}) ");
             }
             Console.WriteLine();
-        } 
+        }
     }
     Console.WriteLine();
 }
 
-// // Заполняем массив случайными числами (не повторяющиеся)
-// void Fill3DArray(int[,,] matr, int min, int max)
-// {
-//     int[] arr = new int[matr.GetLength(0) * matr.GetLength(1) * matr.GetLength(2)];
-//     //int n = 1;
-//     int temp; int k; int m;
-//     for (int i = 0; i < matr.GetLength(0); i++)
-//     {
-//         for (int j = 0; j < matr.GetLength(1); j++)
-//         {
-//             for (k = 0; k < matr.GetLength(2);)
-//             {
-//                 temp = new Random().Next(min, max + 1);
-//                 for (m = 0; m < k; m++)
-//                 {
-//                     if (arr[m] == matr[i, j, k])
-//                     {
-//                         break;
-//                     }
-//                 }
-//                 if (m == k)
-//                 {
-//                     matr[i, j, k] = temp;
-//                     k++;
-//                 }
-
-
-//             }
-//         }
-//     }
-// }
-
-// Заполняем массив случайными числами (повторяющиеся)
+// Заполняем массив случайными числами (не повторяющиеся)
 void Fill3DArray(int[,,] matr, int min, int max)
 {
+    int[] arr = new int[matr.GetLength(0) * matr.GetLength(1) * matr.GetLength(2)];
+    //int n = 1;
+    int temp; int k; int m; int p=0;
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            for (int k = 0; k < matr.GetLength(2); k++)
+            for (k = 0; k < matr.GetLength(2); k++)
             {
-                matr[i, j, k] = new Random().Next(min, max + 1);
+                temp = new Random().Next(min, max + 1);
+                for (m = 0; m < k; m++)
+                {
+                    if (arr[m] == matr[i, j, k])
+                    {
+                        break;
+                    }
+                }
+                    if (m == k)
+                    {
+                        matr[i, j, k] = temp;
+                        arr[p] = temp;
+                        p++;
+                    }
+                
+
             }
         }
     }
 }
+
+// Заполняем массив случайными числами (повторяющиеся)
+// void Fill3DArray(int[,,] matr, int min, int max)
+// {
+//     for (int i = 0; i < matr.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < matr.GetLength(1); j++)
+//         {
+//             for (int k = 0; k < matr.GetLength(2); k++)
+//             {
+//                 matr[i, j, k] = new Random().Next(min, max + 1);
+//             }
+//         }
+//     }
+// }
 
 
 int x = ReadData("Введите количество строк X: ");
